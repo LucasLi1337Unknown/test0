@@ -1,0 +1,1 @@
+export const clamp=(v,min,max)=>Math.max(min,Math.min(max,v));export const rand=(min,max)=>Math.random()*(max-min)+min;export const dist2=(ax,ay,bx,by)=>{const dx=ax-bx,dy=ay-by;return dx*dx+dy*dy};export const chance=p=>Math.random()<p;
